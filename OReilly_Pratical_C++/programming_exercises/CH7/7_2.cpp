@@ -11,7 +11,7 @@
 /***********************************************************************************************************
  *                                  SPECIFICATION
  * Date Calculator v1.0 - 
- *      22/10/2023  - Attahiru Jibril
+ *      10/22/2023  - Attahiru Jibril
  *      WARNING: This is a preliminary specification. Any resemblance to any software living or
  *               Dead is purely coincedental.
  * 

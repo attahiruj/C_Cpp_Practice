@@ -8,8 +8,8 @@
 
 /***********************************************************************************************************
  *                                  SPECIFICATION
- *  TX TTT v1.0 - 
- *      23/10/2023  - Attahiru Jibril
+ *  PrimeChecker v1.0 - 
+ *      5/11/2023  - Attahiru Jibril
  *      WARNING: This is a preliminary specification. Any resemblance to any software living or
  *               Dead is purely coincedental.
  * 
