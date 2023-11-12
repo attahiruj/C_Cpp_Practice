@@ -1,6 +1,6 @@
 /***********************************************************************************************************
  * O'Reilly - Pratical C++ Programming.                                                   
- * PQ.7_4   Write a program to tell whether a number is prime.
+ * PQ.7_5   Write a program to tell whether a number is prime.
  * 
  * writen by Attahiru Jibril
  * 5/11/2023

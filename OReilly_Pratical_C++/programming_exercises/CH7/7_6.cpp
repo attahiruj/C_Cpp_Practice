@@ -1,6 +1,6 @@
 /***********************************************************************************************************
  * O'Reilly - Pratical C++ Programming.                                                   
- * PQ.7_4   Write a program that takes a series of numbers and counts the number of
+ * PQ.7_6   Write a program that takes a series of numbers and counts the number of
  *          positive and negetive values.
  * 
  * writen by Attahiru Jibril
