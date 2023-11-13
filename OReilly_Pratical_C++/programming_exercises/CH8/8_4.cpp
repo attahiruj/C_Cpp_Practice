@@ -8,12 +8,12 @@
 
 /***********************************************************************************************************
  *                                  SPECIFICATION
- *  Parallel-Resistoance-Calculator: 
+ *  Multiplication Table Generator: 
  *      12/11/2023  - Attahiru Jibril
  *      WARNING: This is a preliminary specification. Any resemblance to any software living or
  *               Dead is purely coincedental.
  * 
- *      Parallel-Resistoance-Calculator: - A progrm that prints out the multiplication table of set range
+ *      Multiplication Table Generator: - A progrm that prints out the multiplication table of set range
  * 
  *  USAGE:
  *      1. Input table range to generate
