@@ -133,7 +133,7 @@ int main(){
             case 2:
                 if(i == 3){
                     std::cout << " two hundred";
-                    if(unit > 0)std::cout << " and";
+                    if((unit > 0) || (tenth > 0))std::cout << " and";
                 }else if(i == 2){
                     std::cout << " twenty";
                 }else if(!teenflag){
@@ -143,7 +143,7 @@ int main(){
             case 3:
                 if(i == 3){
                     std::cout << " three hundred";
-                    if(unit > 0)std::cout << " and";
+                    if((unit > 0) || (tenth > 0))std::cout << " and";
                 }else if(i == 2){
                     std::cout << " thirty";
                 }else if(!teenflag){
@@ -153,7 +153,7 @@ int main(){
             case 4:
                 if(i == 3){
                     std::cout << " four hundred";
-                    if(unit > 0)std::cout << " and";
+                    if((unit > 0) || (tenth > 0))std::cout << " and";
                 }else if(i == 2){
                     std::cout << " fourty";
                 }else if(!teenflag){
@@ -163,7 +163,7 @@ int main(){
             case 5:
                 if(i == 3){
                     std::cout << " five hundred";
-                    if(unit > 0)std::cout << " and";
+                    if((unit > 0) || (tenth > 0))std::cout << " and";
                 }else if(i == 2){
                     std::cout << " fifty";
                 }else if(!teenflag){
@@ -173,7 +173,7 @@ int main(){
             case 6:
                 if(i == 3){
                     std::cout << " six hundred";
-                    if(unit > 0)std::cout << " and";
+                    if((unit > 0) || (tenth > 0))std::cout << " and";
                 }else if(i == 2){
                     std::cout << " sixty";
                 }else if(!teenflag){
@@ -183,7 +183,7 @@ int main(){
             case 7:
                 if(i == 3){
                     std::cout << " seven hundred";
-                    if(unit > 0)std::cout << " and";
+                    if((unit > 0) || (tenth > 0))std::cout << " and";
                 }else if(i == 2){
                     std::cout << " seventy";
                 }else if(!teenflag){
@@ -193,7 +193,7 @@ int main(){
             case 8:
                 if(i == 3){
                     std::cout << " eight hundred";
-                    if(unit > 0)std::cout << " and";
+                    if((unit > 0) || (tenth > 0))std::cout << " and";
                 }else if(i == 2){
                     std::cout << " eighty";
                 }else if(!teenflag){
@@ -203,7 +203,7 @@ int main(){
             case 9:
                 if(i == 3){
                     std::cout << " nine hundred";
-                    if(unit > 0)std::cout << " and";
+                    if((unit > 0) || (tenth > 0))std::cout << " and";
                 }else if(i == 2){
                     std::cout << " ninety";
                 }else if(!teenflag){
