@@ -22,6 +22,7 @@
  * 
  *  RESTRICION:
  *      1. can on check numbers in hundreds. ie 123, 567, 100 ...
+ *      2. reads out number literally Eg. 456 -> 'for five six' instead of four hundred and fifty six
  *  
 *************************************************************************************************************/
 
@@ -43,7 +44,7 @@ int main(){
     std::cout << "***********************************\n";
     std::cout << "*           Numbers2words         *\n";
     std::cout << "***********************************\n";
-    std::cout << "\n-> Enter a an alphabet and press enter\n";
+    std::cout << "\n-> Enter positive integers (not more than 3) and press enter\n";
 
     int number = 0;
     int hundreth = 0;
@@ -66,6 +67,7 @@ int main(){
             tenth       = ((number%100) - unit);
             n = 2;
         }else{
+            unit = number;
             n = 1;
         }
 
@@ -76,7 +78,7 @@ int main(){
                 number = hundreth/100;  //convert hundred to unit
             }else if(i == 2){
                 number = tenth/10;      //convert tenth to unit
-            }else{
+            }else if(i == 1){
                 number = unit;
             }
             // print word of currnt number

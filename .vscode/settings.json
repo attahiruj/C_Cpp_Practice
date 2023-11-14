@@ -102,7 +102,8 @@
     "ostream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "8_7_v2": "cpp"
   },
   "editor.tokenColorCustomizations": {},
   "editor.wordWrap": "on"
