@@ -9,19 +9,19 @@
 
 /***********************************************************************************************************
  *                                  SPECIFICATION
- *  Number2words: 
+ *  Number2words v3: 
  *      14/11/2023  - Attahiru Jibril
  *      WARNING: This is a preliminary specification. Any resemblance to any software living or
  *               Dead is purely coincedental.
  * 
- *      Number2words: - A progrm that output the inputed numbers in words.
+ *      Number2words v3: - A progrm that outputs the inputed numbers in words.
  * 
  *  USAGE:
  *      1. Input numbers
  *      2. Get umbers in words
  * 
  *  RESTRICION:
- *      1. can on check numbers in hundreds. ie 1-999 ...
+ *      1. can only check numbers in hundreds. ie 1-999 ...
  *    
  *  
 *************************************************************************************************************/
@@ -72,10 +72,10 @@ int main(){
             unit = number;
             n = 1;
         }
-        bool notEndingZeroZero = (unit > 0) || (tenth > 0);
-        //for every number in series of number print out the word
+
+        //for every number in series of numbers print out its corresponding word
         for (int i = n; i > 0; i--){
-            //set index of number as current number
+            //set the unit by weight as current number
             if(i == 3){
                 number = hundreth/100;  //convert hundred to unit
             }else if(i == 2){
