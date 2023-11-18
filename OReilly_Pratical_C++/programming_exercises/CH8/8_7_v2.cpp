@@ -4,13 +4,13 @@
  *          Example: 895 results in "eight nine five"
  * 
  * writen by Attahiru Jibril
- * 12/11/2023
+ * 14/11/2023
 ************************************************************************************************************/
 
 /***********************************************************************************************************
  *                                  SPECIFICATION
  *  Number2words: 
- *      12/11/2023  - Attahiru Jibril
+ *      14/11/2023  - Attahiru Jibril
  *      WARNING: This is a preliminary specification. Any resemblance to any software living or
  *               Dead is purely coincedental.
  * 
