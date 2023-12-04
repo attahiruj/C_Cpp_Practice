@@ -106,5 +106,6 @@
     "8_7_v2": "cpp"
   },
   "editor.tokenColorCustomizations": {},
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "docwriter.progress.trackFunctions": false
 }
